@@ -29,7 +29,7 @@ export default function Arkivet() {
         <p style={{ fontFamily: "Cino" }}> CINO </p>
         <p style={{ fontFamily: "Clepto" }}> CLEPTO</p>
         <p style={{ fontFamily: "Cloister Black" }}> Cloister Black </p>
-        <p style={{ fontFamily: "Computer Modern" }}></p>
+        <p style={{ fontFamily: "Computer Modern" }}>Computer Modern</p>
         <p style={{ fontFamily: "Coolvetica" }}> Coolvetica </p>
         <p style={{ fontFamily: "Didot" }}> Didot </p>
         <p style={{ fontFamily: "Excalibur Nouveau" }}> Excalibur Nouveau</p>
@@ -43,7 +43,7 @@ export default function Arkivet() {
         <p style={{ fontFamily: "Mentra" }}> Mentra</p>
         <p style={{ fontFamily: "Petrov Sans" }}> Petrov Sans</p>
         <p style={{ fontFamily: "Planet Kosmos" }}> planet kosmos</p>
-        <p style={{ fontFamily: "Pop Magic" }}></p>
+        <p style={{ fontFamily: "Pop Magic" }}>Pop Magic</p>
         <p style={{ fontFamily: "Retro Boldy" }}> Retro Boldy</p>
         <p style={{ fontFamily: "Retro Cool" }}> Retro Cool</p>
         <p style={{ fontFamily: "Saddlebag" }}> SADDLEBAG</p>
@@ -51,7 +51,7 @@ export default function Arkivet() {
         <p style={{ fontFamily: "Sherman" }}> Sherman</p>
         <p style={{ fontFamily: "Space Mono" }}> SPACE MONO</p>
         <p style={{ fontFamily: "Space Time" }}> Space Time</p>
-        <p style={{ fontFamily: "Speedway" }}></p>
+        <p style={{ fontFamily: "Speedway" }}>SPEEDWAY</p>
         <p style={{ fontFamily: "Stretch Pro" }}> STRRETCH PROO</p>
         <p style={{ fontFamily: "Thunder" }}> Thunder Bold Italic </p>
         <p style={{ fontFamily: "Times New Roman" }}> Times New Roman</p>

@@ -29,7 +29,7 @@ div.blocktext {
   border-color: aqua;
   border-width: 1px;
   margin: auto;
-  width: 100%;
+  width: 75vw;
   text-align: center;
   font-size: 60px;
   height: 100vh;
@@ -56,9 +56,31 @@ h3 {
   display: flex;
   position: relative;
   top: 2%;
-  border-color: #071e22;
+  border-color: aqua;
   border-width: 1px;
   justify-content: space-around;
+}
+
+.text {
+  font-size: 30px;
+  text-align: justify;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  border-width: 1px;
+  border-color: aqua;
+}
+
+.H22 {
+  font-family: computer modern;
+}
+
+.V23 {
+  font-family: speedway;
+}
+
+.H23 {
+  font-family: pop magic;
 }
 
 @layer utilities {

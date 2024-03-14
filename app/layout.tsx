@@ -28,7 +28,7 @@ export default function RootLayout({
           <div></div>
           <div>
             <Link href="/">
-              <p className="link"> Bergen Fontforening </p>
+              <p className="link"> Hovedsiden </p>
             </Link>
             <Link href="/arkivet">
               <p className="link"> Arkivet </p>
@@ -55,7 +55,12 @@ export default function RootLayout({
           </div>
         </header>
         {children}
-        <footer>Footer</footer>
+        <footer>
+          <p>Kontakt:</p>
+          <Link href="mailto: post@bergenfont.no">
+            <p className="link"> post@bergenfont.no </p>
+          </Link>
+        </footer>
       </body>
     </html>
   );
