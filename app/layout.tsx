@@ -42,13 +42,13 @@ export default function RootLayout({
           </div>
           <div className="socials">
             <a href="https://instagram.com/bergenfont">
-              <Image src="/ig.svg" width={50} height={50} alt="IG"></Image>
+              <Image src="/ig.svg" width={40} height={40} alt="IG"></Image>
             </a>
-            <a href="https://instagram.com/bergenfont">
+            <a href="https://www.linkedin.com/company/96013843">
               <Image
                 src="/linkedin.svg"
-                width={50}
-                height={50}
+                width={40}
+                height={40}
                 alt="LinkedIn"
               ></Image>
             </a>
