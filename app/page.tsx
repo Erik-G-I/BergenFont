@@ -3,16 +3,19 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="blocktext">
+      <div className="blocktext" spellCheck="false">
         <h1 className="title">Bergen Font</h1>
         <h3>Månedens funn:</h3>
-        <p style={{ fontFamily: "Checkbook" }}>Checkbook</p>
-        <p style={{ fontFamily: "Great Warrior" }}>Great Warrior</p>
-        <p style={{ fontFamily: "Didiot" }}>Didot</p>
-        <p style={{ fontFamily: "Futura" }}>Futura</p>
-        <p style={{ fontFamily: "Cloister Black" }}>Cloister Black</p>
-        <p style={{ fontFamily: "Carizo" }}>Carizo</p>
-        <p style={{ fontFamily: "Whiskey State" }}>Whiskey State</p>
+        <ul contentEditable="true">
+          <li style={{ fontFamily: "Checkbook" }}>Checkbook</li>
+          <li style={{ fontFamily: "Great Warrior" }}>Great Warrior</li>
+          <li style={{ fontFamily: "Didiot" }}>Didot</li>
+          <li style={{ fontFamily: "Petrov Sans" }}>Petrov Sans</li>
+          <li style={{ fontFamily: "Futura" }}>Futura</li>
+          <li style={{ fontFamily: "Cloister Black" }}>Cloister Black</li>
+          <li style={{ fontFamily: "Carizo" }}>Carizo</li>
+          <li style={{ fontFamily: "Whiskey State" }}>Whiskey State</li>
+        </ul>
       </div>
     </>
   );

@@ -3,62 +3,66 @@ export default function Arkivet() {
     <>
       <div className="blocktext">
         <h1 className="title">Arkivet</h1>
-
-        <p style={{ fontFamily: "Aber Mono" }}> Aber Mono</p>
-        <p style={{ fontFamily: "Against" }}> Against</p>
-        <p style={{ fontFamily: "Akira Expanded" }}> AKIRA EXPANDED</p>
-        <p style={{ fontFamily: "Alarm Clock" }}> Alarm Clock</p>
-        <p style={{ fontFamily: "Anderson Grotesk Ultrabold" }}>
-          {" "}
-          Anderson Grotesk Ultrabold
-        </p>
-        <p style={{ fontFamily: "Arial" }}> Arial</p>
-        <p style={{ fontFamily: "Barcode" }}> Barcode</p>
-        <p style={{ fontFamily: "Black Mustang" }}> Black Mustang</p>
-        <p style={{ fontFamily: "Blemo" }}> Blemo </p>
-        <p style={{ fontFamily: "Bogam" }}> Bogam</p>
-        <p style={{ fontFamily: "Bronova Bold" }}> Bronova Bold</p>
-        <p style={{ fontFamily: "Bryson" }}> Bryson</p>
-        <p style={{ fontFamily: "Calligrapher" }}> Calligrapher</p>
-        <p style={{ fontFamily: "campaign-serif" }}> Campaign Serif</p>
-        <p style={{ fontFamily: "Capuche" }}> Capuche</p>
-        <p style={{ fontFamily: "Carizo" }}> Carizo</p>
-        <p style={{ fontFamily: "Cfour" }}> CFOUR</p>
-        <p style={{ fontFamily: "Chappa" }}> Chappa </p>
-        <p style={{ fontFamily: "Checkbook" }}> Checkbook </p>
-        <p style={{ fontFamily: "Cino" }}> CINO </p>
-        <p style={{ fontFamily: "Clepto" }}> CLEPTO</p>
-        <p style={{ fontFamily: "Cloister Black" }}> Cloister Black </p>
-        <p style={{ fontFamily: "Computer Modern" }}>Computer Modern</p>
-        <p style={{ fontFamily: "Coolvetica" }}> Coolvetica </p>
-        <p style={{ fontFamily: "Didot" }}> Didot </p>
-        <p style={{ fontFamily: "Excalibur Nouveau" }}> Excalibur Nouveau</p>
-        <p style={{ fontFamily: "Franchise" }}> FRANCHISE</p>
-        <p style={{ fontFamily: "Futura" }}> Futura </p>
-        <p style={{ fontFamily: "Git Sans" }}> Git Sans</p>
-        <p style={{ fontFamily: "Goldfish" }}> Goldfish</p>
-        <p style={{ fontFamily: "Great Warrior" }}> Great Warrior</p>
-        <p style={{ fontFamily: "Helvetica" }}> Helvetica</p>
-        <p style={{ fontFamily: "Macro" }}> MACRO</p>
-        <p style={{ fontFamily: "Mentra" }}> Mentra</p>
-        <p style={{ fontFamily: "Petrov Sans" }}> Petrov Sans</p>
-        <p style={{ fontFamily: "Planet Kosmos" }}> planet kosmos</p>
-        <p style={{ fontFamily: "Pop Magic" }}>Pop Magic</p>
-        <p style={{ fontFamily: "Retro Boldy" }}> Retro Boldy</p>
-        <p style={{ fontFamily: "Retro Cool" }}> Retro Cool</p>
-        <p style={{ fontFamily: "Saddlebag" }}> SADDLEBAG</p>
-        <p style={{ fontFamily: "Saonara" }}> Saonara</p>
-        <p style={{ fontFamily: "Sherman" }}> Sherman</p>
-        <p style={{ fontFamily: "Space Mono" }}> SPACE MONO</p>
-        <p style={{ fontFamily: "Space Time" }}> Space Time</p>
-        <p style={{ fontFamily: "Speedway" }}>SPEEDWAY</p>
-        <p style={{ fontFamily: "Stretch Pro" }}> STRRETCH PROO</p>
-        <p style={{ fontFamily: "Thunder" }}> Thunder Bold Italic </p>
-        <p style={{ fontFamily: "Times New Roman" }}> Times New Roman</p>
-        <p style={{ fontFamily: "Verve" }}> Verve</p>
-        <p style={{ fontFamily: "Vintage" }}> Vintage</p>
-        <p style={{ fontFamily: "Vivaldi" }}> Vivaldi </p>
-        <p style={{ fontFamily: "Whiskey State" }}> WHISKEY STATE</p>
+        <ul contentEditable="true">
+          <li style={{ fontFamily: "Aber Mono" }}> Aber Mono</li>
+          <li style={{ fontFamily: "Against" }}> Against</li>
+          <li style={{ fontFamily: "Akira Expanded" }}> AKIRA EXPANDED</li>
+          <li style={{ fontFamily: "Alarm Clock" }}> Alarm Clock</li>
+          <li style={{ fontFamily: "Anderson Grotesk Ultrabold" }}>
+            {" "}
+            Anderson Grotesk Ultrabold
+          </li>
+          <li style={{ fontFamily: "Arial" }}> Arial</li>
+          <li style={{ fontFamily: "Barcode" }}> Barcode</li>
+          <li style={{ fontFamily: "Black Mustang" }}> Black Mustang</li>
+          <li style={{ fontFamily: "Blemo" }}> Blemo </li>
+          <li style={{ fontFamily: "Bogam" }}> Bogam</li>
+          <li style={{ fontFamily: "Bronova Bold" }}> Bronova Bold</li>
+          <li style={{ fontFamily: "Bryson" }}> Bryson</li>
+          <li style={{ fontFamily: "Calligrapher" }}> Calligrapher</li>
+          <li style={{ fontFamily: "campaign-serif" }}> Campaign Serif</li>
+          <li style={{ fontFamily: "Capuche" }}> Capuche</li>
+          <li style={{ fontFamily: "Carizo" }}> Carizo</li>
+          <li style={{ fontFamily: "Cfour" }}> CFOUR</li>
+          <li style={{ fontFamily: "Chappa" }}> Chappa </li>
+          <li style={{ fontFamily: "Checkbook" }}> Checkbook </li>
+          <li style={{ fontFamily: "Cino" }}> CINO </li>
+          <li style={{ fontFamily: "Clepto" }}> CLEPTO</li>
+          <li style={{ fontFamily: "Cloister Black" }}> Cloister Black </li>
+          <li style={{ fontFamily: "Computer Modern" }}>Computer Modern</li>
+          <li style={{ fontFamily: "Coolvetica" }}> Coolvetica </li>
+          <li style={{ fontFamily: "Didot" }}> Didot </li>
+          <li style={{ fontFamily: "Excalibur Nouveau" }}>
+            {" "}
+            Excalibur Nouveau
+          </li>
+          <li style={{ fontFamily: "Franchise" }}> FRANCHISE</li>
+          <li style={{ fontFamily: "Futura" }}> Futura </li>
+          <li style={{ fontFamily: "Git Sans" }}> Git Sans</li>
+          <li style={{ fontFamily: "Goldfish" }}> Goldfish</li>
+          <li style={{ fontFamily: "Great Warrior" }}> Great Warrior</li>
+          <li style={{ fontFamily: "Helvetica" }}> Helvetica</li>
+          <li style={{ fontFamily: "Macro" }}> MACRO</li>
+          <li style={{ fontFamily: "Mentra" }}> Mentra</li>
+          <li style={{ fontFamily: "Petrov Sans" }}> Petrov Sans</li>
+          <li style={{ fontFamily: "Planet Kosmos" }}> planet kosmos</li>
+          <li style={{ fontFamily: "Pop Magic" }}>Pop Magic</li>
+          <li style={{ fontFamily: "Retro Boldy" }}> Retro Boldy</li>
+          <li style={{ fontFamily: "Retro Cool" }}> Retro Cool</li>
+          <li style={{ fontFamily: "Saddlebag" }}> SADDLEBAG</li>
+          <li style={{ fontFamily: "Saonara" }}> Saonara</li>
+          <li style={{ fontFamily: "Sherman" }}> Sherman</li>
+          <li style={{ fontFamily: "Space Mono" }}> SPACE MONO</li>
+          <li style={{ fontFamily: "Space Time" }}> Space Time</li>
+          <li style={{ fontFamily: "Speedway" }}>SPEEDWAY</li>
+          <li style={{ fontFamily: "Stretch Pro" }}> STRRETCH PROO</li>
+          <li style={{ fontFamily: "Thunder" }}> Thunder Bold Italic </li>
+          <li style={{ fontFamily: "Times New Roman" }}> Times New Roman</li>
+          <li style={{ fontFamily: "Verve" }}> Verve</li>
+          <li style={{ fontFamily: "Vintage" }}> Vintage</li>
+          <li style={{ fontFamily: "Vivaldi" }}> Vivaldi </li>
+          <li style={{ fontFamily: "Whiskey State" }}> WHISKEY STATE</li>
+        </ul>
       </div>
     </>
   );

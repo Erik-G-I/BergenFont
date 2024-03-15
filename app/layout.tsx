@@ -56,10 +56,13 @@ export default function RootLayout({
         </header>
         {children}
         <footer>
-          <p>Kontakt:</p>
-          <Link href="mailto: post@bergenfont.no">
-            <p className="link"> post@bergenfont.no </p>
-          </Link>
+          <p style={{ fontFamily: "Computer Modern Italic" }}>
+            Vi fremmer, fronter og formidler fonter!
+          </p>
+          <p>
+            Kontakt:{" "}
+            <Link href="mailto: post@bergenfont.no">post@bergenfont.no</Link>
+          </p>
         </footer>
       </body>
     </html>

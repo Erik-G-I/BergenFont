@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #fed18c;
+  background-color: #f2e5d1; /*#fed18c;*/
   color: #071e22;
   flex: auto;
 }
@@ -11,8 +11,8 @@ body {
 header {
   padding: 2%;
   text-align: center;
-  color: coral;
-  font-family: "Computer Modern";
+  color: #0060e3; /*coral;*/
+  font-family: "Computer Modern Italic";
   font-weight: bold;
   font-size: 20px;
   display: grid;
@@ -21,13 +21,17 @@ header {
 footer {
   padding: 2%;
   text-align: center;
+  color: #0060e3;
+  font-family: "Helvetica";
   margin: auto;
   font-size: 20px;
 }
 
+p {
+  padding: 1%;
+}
+
 div.blocktext {
-  border-color: aqua;
-  border-width: 1px;
   margin: auto;
   width: 75vw;
   text-align: center;
@@ -56,8 +60,6 @@ h3 {
   display: flex;
   position: relative;
   top: 2%;
-  border-color: aqua;
-  border-width: 1px;
   justify-content: space-around;
 }
 
@@ -67,8 +69,6 @@ h3 {
   display: flex;
   margin: auto;
   width: 100%;
-  border-width: 1px;
-  border-color: aqua;
 }
 
 .H22 {
@@ -81,6 +81,10 @@ h3 {
 
 .H23 {
   font-family: pop magic;
+}
+
+[contentEditable]:focus {
+  outline: 0px solid transparent;
 }
 
 @layer utilities {
@@ -205,6 +209,13 @@ h3 {
 @font-face {
   font-family: "Computer Modern";
   src: url(/fonts/cmunrm.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+/* Computer Modern Italic*/
+@font-face {
+  font-family: "Computer Modern Italic";
+  src: url(/fonts/cmunti.ttf);
   font-weight: normal;
   font-style: normal;
 }
