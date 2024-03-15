@@ -1,3 +1,8 @@
+## Om prosjektet
+Dette er den oppdaterte og forbedrede versjonen til Bergen Fontforening sine nettsider.
+Jeg ville lære meg typescript og NextJS så jeg tenkte det var naturlig å oppgradere Bergen Fontforening sine 
+nettsider med disse teknologiene.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
