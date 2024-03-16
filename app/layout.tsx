@@ -21,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="stylesheet" href="https://use.typekit.net/jrq1ohe.css" />
+        <link rel="icon" href="/icon.png" sizes="any" />
       </head>
       <body className={inter.className}>
         <header>

@@ -1,9 +1,9 @@
 export default function Arkivet() {
   return (
     <>
-      <div className="blocktext">
+      <div className="pageblock">
         <h1 className="title">Arkivet</h1>
-        <ul contentEditable="true">
+        <ul className="arkiv" contentEditable="true">
           <li style={{ fontFamily: "Aber Mono" }}> Aber Mono</li>
           <li style={{ fontFamily: "Against" }}> Against</li>
           <li style={{ fontFamily: "Akira Expanded" }}> AKIRA EXPANDED</li>

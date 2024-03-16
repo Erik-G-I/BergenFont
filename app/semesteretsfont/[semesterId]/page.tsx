@@ -6,7 +6,7 @@ export default function SemesteretsFont({
   var id = params.semesterId.toUpperCase();
   return (
     <>
-      <div className="blocktext">
+      <div className="pageblock">
         <h3>{id}</h3>
         <h1 className={id}>{FontName(id)}</h1>
       </div>

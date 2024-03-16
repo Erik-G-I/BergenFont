@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function SemesterList() {
   return (
     <>
-      <div className="blocktext">
+      <div className="pageblock">
         <h1 className="title">Tidligere Semestre</h1>
         <Link href="/semesteretsfont/H22">
           <h3>H22</h3>

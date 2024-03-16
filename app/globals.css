@@ -5,7 +5,7 @@
 body {
   background-color: #f2e5d1; /*#fed18c;*/
   color: #071e22;
-  flex: auto;
+  width: 100vw;
 }
 
 header {
@@ -27,39 +27,78 @@ footer {
   font-size: 20px;
 }
 
-p {
-  padding: 1%;
-}
-
-div.blocktext {
+div.pageblock {
   margin: auto;
   width: 75vw;
   text-align: center;
-  font-size: 60px;
-  height: 100vh;
+  height: 80vh;
   display: table;
 }
 
-p.link {
+.link {
   text-decoration: underline;
   display: inline;
   padding: 1%;
   cursor: grab;
 }
 
-h1.title {
+.title {
   font-family: "Coolvetica";
-  font-size: 100px;
   padding: 2%;
+}
+
+h1 {
+  font-size: 7rem;
 }
 
 h3 {
   font-family: "Helvetica";
   font-weight: bold;
+  font-size: 3rem;
 }
 
 li {
-  padding: 1%;
+  padding: 2%;
+  font-size: 4rem;
+}
+
+p {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  li {
+    font-size: 2rem;
+  }
+  p {
+    padding-top: 0.75rem;
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+}
+
+.homeList {
+  animation: "fadeInUp" 3s;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 100px, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
 }
 
 .socials {
@@ -70,11 +109,15 @@ li {
 }
 
 .text {
-  font-size: 30px;
   text-align: justify;
   display: flex;
   margin: auto;
   width: 100%;
+}
+
+.arkiv {
+  text-align: center;
+  width: 100vw;
 }
 
 .H22 {

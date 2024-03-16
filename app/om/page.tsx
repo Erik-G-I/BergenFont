@@ -1,7 +1,7 @@
 export default function Om() {
   return (
     <>
-      <div className="blocktext">
+      <div className="pageblock">
         <h1 className="title">Om oss</h1>
         <p className="text">
           Bergen Fontforening ble grunnlagt en vakker dag i desember i 2022, i

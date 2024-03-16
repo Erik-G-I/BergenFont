@@ -3,11 +3,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="blocktext" spellCheck="false">
+      <div className="pageblock" spellCheck="false">
         <h1 className="title">Bergen Font</h1>
         <h3>Månedens funn:</h3>
-        <ul contentEditable="true">
+        <ul className="homeList" contentEditable="true">
           <li style={{ fontFamily: "Checkbook" }}>Checkbook</li>
+          <li style={{ fontFamily: "Menlo", fontWeight: "Bold" }}>
+            Menlo Bold
+          </li>
           <li style={{ fontFamily: "Great Warrior" }}>Great Warrior</li>
           <li style={{ fontFamily: "Didiot" }}>Didot</li>
           <li style={{ fontFamily: "Petrov Sans" }}>Petrov Sans</li>
