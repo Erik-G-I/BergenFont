@@ -43,6 +43,10 @@ export default function Arkivet() {
           <li style={{ fontFamily: "Great Warrior" }}> Great Warrior</li>
           <li style={{ fontFamily: "Helvetica" }}> Helvetica</li>
           <li style={{ fontFamily: "Macro" }}> MACRO</li>
+          <li style={{ fontFamily: "Menlo", fontWeight: "bold" }}>
+            {" "}
+            Menlo Bold
+          </li>
           <li style={{ fontFamily: "Mentra" }}> Mentra</li>
           <li style={{ fontFamily: "Petrov Sans" }}> Petrov Sans</li>
           <li style={{ fontFamily: "Planet Kosmos" }}> planet kosmos</li>
