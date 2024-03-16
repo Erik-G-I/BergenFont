@@ -44,16 +44,22 @@ p.link {
   text-decoration: underline;
   display: inline;
   padding: 1%;
+  cursor: grab;
 }
 
 h1.title {
   font-family: "Coolvetica";
   font-size: 100px;
+  padding: 2%;
 }
 
 h3 {
   font-family: "Helvetica";
   font-weight: bold;
+}
+
+li {
+  padding: 1%;
 }
 
 .socials {

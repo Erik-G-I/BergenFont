@@ -5,7 +5,6 @@ import Link from "next/link";
 import next from "next";
 import Image from "next/image";
 import { IMAGES_MANIFEST } from "next/dist/shared/lib/constants";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
