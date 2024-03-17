@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <div className="pageblock" spellCheck="false">
         <h1 className="title">Bergen Font</h1>
-        <h3>Månedens funn:</h3>
+        <h3>Nylige funn:</h3>
         <ul className="homeList" contentEditable="true">
           <li style={{ fontFamily: "Checkbook" }}>Checkbook</li>
           <li style={{ fontFamily: "Menlo", fontWeight: "Bold" }}>

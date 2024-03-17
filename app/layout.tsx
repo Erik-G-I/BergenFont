@@ -61,7 +61,9 @@ export default function RootLayout({
           </p>
           <p>
             Kontakt:{" "}
-            <Link href="mailto: post@bergenfont.no">post@bergenfont.no</Link>
+            <button className="email">
+              <Link href="mailto: post@bergenfont.no">post@bergenfont.no</Link>
+            </button>
           </p>
         </footer>
       </body>

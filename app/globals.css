@@ -5,7 +5,7 @@
 body {
   background-color: #f2e5d1; /*#fed18c;*/
   color: #071e22;
-  width: 100vw;
+  width: 100%;
 }
 
 header {
@@ -39,7 +39,11 @@ div.pageblock {
   text-decoration: underline;
   display: inline;
   padding: 1%;
-  cursor: grab;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration-line: none;
 }
 
 .title {
@@ -60,6 +64,7 @@ h3 {
 li {
   padding: 2%;
   font-size: 4rem;
+  overflow: auto;
 }
 
 p {
@@ -106,6 +111,15 @@ p {
   position: relative;
   top: 2%;
   justify-content: space-around;
+}
+
+button.email {
+  border-radius: 20px;
+  border-color: #0060e3;
+  background-color: #0060e3;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #f2e5d1;
 }
 
 .text {
