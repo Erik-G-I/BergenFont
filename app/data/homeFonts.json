@@ -1,5 +1,6 @@
 {
   "fonts": [
+    { "name": "Droid-Sans", "weight": "" },
     { "name": "Checkbook", "weight": "" },
     { "name": "Menlo", "weight": "Bold" },
     { "name": "Great Warrior", "weight": "" },
