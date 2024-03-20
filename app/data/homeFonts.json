@@ -1,0 +1,13 @@
+{
+  "fonts": [
+    { "name": "Checkbook", "weight": "" },
+    { "name": "Menlo", "weight": "Bold" },
+    { "name": "Great Warrior", "weight": "" },
+    { "name": "Didot", "weight": "" },
+    { "name": "Petrov Sans", "weight": "" },
+    { "name": "Cloister Black", "weight": "" },
+    { "name": "Futura", "weight": "" },
+    { "name": "Carizo", "weight": "" },
+    { "name": "Whiskey State", "weight": "" }
+  ]
+}

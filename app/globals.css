@@ -73,6 +73,11 @@ p {
   font-size: 1.75rem;
 }
 
+.fonts {
+  font-size: 4rem;
+  overflow: auto;
+}
+
 @media only screen and (max-width: 500px) {
   h1 {
     font-size: 3.25rem;
@@ -87,6 +92,9 @@ p {
     padding-top: 0.75rem;
     padding-bottom: 0.25rem;
     font-size: 1rem;
+  }
+  .fonts {
+    font-size: 2rem;
   }
 }
 
@@ -246,7 +254,7 @@ button.email {
 
 /* Stretch Pro */
 @font-face {
-  font-family: "Stretch Pro";
+  font-family: "Strretch Proo";
   src: url(/fonts/StretchPro.otf);
   font-weight: normal;
   font-style: normal;
@@ -397,7 +405,7 @@ button.email {
 
 /* Thunder */
 @font-face {
-  font-family: "Thunder";
+  font-family: "Thunder Bold Italic";
   src: url(/fonts/Thunder-BoldHCItalic.ttf);
   font-weight: normal;
   font-style: normal;
