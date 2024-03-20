@@ -1,5 +1,9 @@
 import { promises as fs } from "fs";
 
+/*
+Function that takes a json-file with font names and weight
+and returns editable <p> elements.
+*/
 export default async function loadFontList(path: string) {
   const file = await fs.readFile(process.cwd() + path, "utf8");
   const data = await JSON.parse(file).fonts;
