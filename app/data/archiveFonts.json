@@ -1,63 +1,357 @@
 {
   "fonts": [
-    { "name": "Aber Mono", "weight": "" },
-    { "name": "Abril-Titling", "weight": "" },
-    { "name": "Against", "weight": "" },
-    { "name": "Akira Expanded", "weight": "" },
-    { "name": "Alarm Clock", "weight": "" },
-    { "name": "Anderson Grotesk Ultrabold", "weight": "" },
-    { "name": "Arial", "weight": "" },
-    { "name": "Barcode", "weight": "" },
-    { "name": "Black Mustang", "weight": "" },
-    { "name": "Blemo", "weight": "" },
-    { "name": "Bogam", "weight": "" },
-    { "name": "Bronova Bold", "weight": "" },
-    { "name": "Bryson", "weight": "" },
-    { "name": "Calligrapher", "weight": "" },
-    { "name": "Campaign-serif", "weight": "" },
-    { "name": "Capuche", "weight": "" },
-    { "name": "Carizo", "weight": "" },
-    { "name": "Cfour", "weight": "" },
-    { "name": "Chappa", "weight": "" },
-    { "name": "Checkbook", "weight": "" },
-    { "name": "Cino", "weight": "" },
-    { "name": "Clepto", "weight": "" },
-    { "name": "Cloister Black", "weight": "" },
-    { "name": "Computer Modern", "weight": "" },
-    { "name": "Coolvetica", "weight": "" },
-    { "name": "Didot", "weight": "" },
-    { "name": "Droid-Sans", "weight": "" },
-    { "name": "Excalibur Nouveau", "weight": "" },
-    { "name": "Expressway", "weight": "" },
-    { "name": "Franchise", "weight": "" },
-    { "name": "Futura", "weight": "" },
-    { "name": "Git Sans", "weight": "" },
-    { "name": "Goldfish", "weight": "" },
-    { "name": "Great Warrior", "weight": "" },
-    { "name": "Halcom", "weight": "" },
-    { "name": "Helvetica", "weight": "" },
-    { "name": "Macro", "weight": "" },
-    { "name": "Menlo", "weight": "Bold" },
-    { "name": "Mentra", "weight": "" },
-    { "name": "Petrov Sans", "weight": "" },
-    { "name": "Planet Kosmos", "weight": "" },
-    { "name": "Pop Magic", "weight": "" },
-    { "name": "Rafaella", "weight": "" },
-    { "name": "Retro Boldy", "weight": "" },
-    { "name": "Ringold-Clarendon", "weight": "" },
-    { "name": "Saddlebag", "weight": "" },
-    { "name": "Saonara", "weight": "" },
-    { "name": "Sherman", "weight": "" },
-    { "name": "Space Mono", "weight": "" },
-    { "name": "Space Time", "weight": "" },
-    { "name": "SPEEDWAY", "weight": "" },
-    { "name": "STRRETCH PROO", "weight": "" },
-    { "name": "Thunder Bold Italic", "weight": "" },
-    { "name": "TT-Globs", "weight": "" },
-    { "name": "Tuppence", "weight": "" },
-    { "name": "Verve", "weight": "" },
-    { "name": "Vintage", "weight": "" },
-    { "name": "Vivaldi", "weight": "" },
-    { "name": "Whiskey State", "weight": "" }
+    {
+      "name": "Aber Mono",
+      "weight": "",
+      "author": "Tom Robin Karlsson",
+      "link": "https://www.behance.net/gallery/133228829/ABER-MONO-(free-typeface)?locale=nb_NO",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Abril-Titling",
+      "weight": "",
+      "author": "José Scaglione & Veronika Burian",
+      "link": "https://fonts.adobe.com/fonts/abril-titling",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Against",
+      "weight": "",
+      "author": "177 studio",
+      "link": "https://www.behance.net/gallery/134333837/Free-Font-Against?locale=nb_NO",
+      "license": "personlig bruk"
+    },
+    {
+      "name": "Akira Expanded",
+      "weight": "",
+      "author": "typologic",
+      "link": "https://creativemarket.com/typologic/4868098-Akira-Expanded",
+      "license": "personlig bruk"
+    },
+    {
+      "name": "Alarm Clock",
+      "weight": "",
+      "author": "David J Patterson",
+      "link": "https://www.dafont.com/alarm-clock.font",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Anderson Grotesk Ultrabold",
+      "weight": "",
+      "author": "Stephen French",
+      "link": "https://www.behance.net/gallery/58071711/ANDERSON-GROTESK-A-free-font-family",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Arial",
+      "weight": "",
+      "author": "Robin Nicholas & Patricia Saunders",
+      "link": "https://befonts.com/arial-font.html",
+      "license": "personlig bruk"
+    },
+    {
+      "name": "Barcode",
+      "weight": "",
+      "author": "Anke Arnold",
+      "link": "https://www.dafont.com/barcode-font.font",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Black Mustang",
+      "weight": "",
+      "author": "Ari Juanda",
+      "link": "https://www.dafont.com/black-mustang.font",
+      "license": "personlig bruk"
+    },
+    {
+      "name": "Blemo",
+      "weight": "",
+      "author": "Artsigma Design",
+      "link": "https://befonts.com/blemo-sans-serif-font.html",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Bogam",
+      "weight": "",
+      "author": "Zea Fonts",
+      "link": "https://www.behance.net/gallery/115313329/BOGAM-FREE-BOLD-SANS-SERIF-FONT",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Bronova Bold",
+      "weight": "",
+      "author": "DesignBro",
+      "link": "https://www.behance.net/gallery/91852751/Free-Font-Bronova-Regular-Bold",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Bryson",
+      "weight": "",
+      "author": "Valentino Vergan",
+      "link": "https://befonts.com/bryson-bold-typeface.html",
+      "license": "personlig bruk"
+    },
+    {
+      "name": "Calligrapher",
+      "weight": "",
+      "author": "ukjent designer",
+      "link": "https://fontsgeek.com/fonts/Calligrapher-Regular",
+      "license": "personlig bruk"
+    },
+    {
+      "name": "Campaign-serif",
+      "weight": "",
+      "author": "Mark Caneso",
+      "link": "https://fonts.adobe.com/fonts/campaign-serif",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Capuche",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    { "name": "Carizo", "weight": "", "author": "", "link": "", "license": "" },
+    { "name": "Cfour", "weight": "", "author": "", "link": "", "license": "" },
+    { "name": "Chappa", "weight": "", "author": "", "link": "", "license": "" },
+    {
+      "name": "Checkbook",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    { "name": "Cino", "weight": "", "author": "", "link": "", "license": "" },
+    { "name": "Clepto", "weight": "", "author": "", "link": "", "license": "" },
+    {
+      "name": "Cloister Black",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Computer Modern",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Coolvetica",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    { "name": "Didot", "weight": "", "author": "", "link": "", "license": "" },
+    {
+      "name": "Droid-Sans",
+      "weight": "",
+      "author": "Steve Matteson",
+      "link": "https://fonts.adobe.com/fonts/droid-sans",
+      "license": "åpen kildekode"
+    },
+    {
+      "name": "Excalibur Nouveau",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Expressway",
+      "weight": "",
+      "author": "Ray Larabie",
+      "link": "https://fonts.adobe.com/fonts/expressway",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Franchise",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    { "name": "Futura", "weight": "", "author": "", "link": "", "license": "" },
+    {
+      "name": "Git Sans",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Goldfish",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Great Warrior",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Halcom",
+      "weight": "",
+      "author": "Jonathan Hill",
+      "link": "https://fonts.adobe.com/fonts/halcom",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Helvetica",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    { "name": "Macro", "weight": "", "author": "", "link": "", "license": "" },
+    {
+      "name": "Menlo",
+      "weight": "Bold",
+      "author": "Jim Lyles",
+      "link": "https://www.cufonfonts.com/font/menlo",
+      "license": "personlig & kommersiell bruk"
+    },
+    { "name": "Mentra", "weight": "", "author": "", "link": "", "license": "" },
+    {
+      "name": "Petrov Sans",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Planet Kosmos",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Pop Magic",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Rafaella",
+      "weight": "",
+      "author": "Maximiliano Sproviero",
+      "link": "https://fonts.adobe.com/fonts/rafaella",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Retro Boldy",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Ringold-Clarendon",
+      "weight": "",
+      "author": "Dan Rhatigan",
+      "link": "https://fonts.adobe.com/fonts/ringold",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Saddlebag",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Saonara",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Sherman",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Space Mono",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Space Time",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "SPEEDWAY",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "STRRETCH PROO",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Thunder Bold Italic",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "TT-Globs",
+      "weight": "",
+      "author": "Antonina Zhulkova & Yulia Gonina",
+      "link": "https://fonts.adobe.com/fonts/tt-globs",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
+      "name": "Tuppence",
+      "weight": "",
+      "author": "Roberto de Vicq de Cumptich",
+      "link": "https://fonts.adobe.com/fonts/tuppence",
+      "license": "personlig & kommersiell bruk"
+    },
+    { "name": "Verve", "weight": "", "author": "", "link": "", "license": "" },
+    {
+      "name": "Vintage",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Vivaldi",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    },
+    {
+      "name": "Whiskey State",
+      "weight": "",
+      "author": "",
+      "link": "",
+      "license": ""
+    }
   ]
 }
