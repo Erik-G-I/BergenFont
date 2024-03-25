@@ -108,22 +108,52 @@
     {
       "name": "Capuche",
       "weight": "",
-      "author": "",
-      "link": "",
-      "license": ""
+      "author": "Eko Bimantara",
+      "link": "https://ekobimantara.com/product/capuche/",
+      "license": "personlig bruk"
     },
-    { "name": "Carizo", "weight": "", "author": "", "link": "", "license": "" },
-    { "name": "Cfour", "weight": "", "author": "", "link": "", "license": "" },
-    { "name": "Chappa", "weight": "", "author": "", "link": "", "license": "" },
+    {
+      "name": "Carizo",
+      "weight": "",
+      "author": "Fourlines Design",
+      "link": "https://www.fontsera.com/product/carizo/",
+      "license": "personlig bruk"
+    },
+    {
+      "name": "Cfour",
+      "weight": "",
+      "author": "Chequered Ink",
+      "link": "https://www.fontspace.com/cfour-font-f23481",
+      "license": "personlig bruk"
+    },
+    {
+      "name": "Chappa",
+      "weight": "",
+      "author": "Lucas Mercado",
+      "link": "https://befonts.com/chappa-display-font.html",
+      "license": "personlig & kommersiell bruk"
+    },
     {
       "name": "Checkbook",
       "weight": "",
-      "author": "",
-      "link": "",
-      "license": ""
+      "author": "Allen R. Walden",
+      "link": "https://www.fontspace.com/checkbook-font-f745",
+      "license": "personlig bruk"
     },
-    { "name": "Cino", "weight": "", "author": "", "link": "", "license": "" },
-    { "name": "Clepto", "weight": "", "author": "", "link": "", "license": "" },
+    {
+      "name": "Cino",
+      "weight": "",
+      "author": "ukjent designer",
+      "link": "https://www.creativefabrica.com/product/cino/",
+      "license": "personlig bruk"
+    },
+    {
+      "name": "Clepto",
+      "weight": "",
+      "author": "gadotak",
+      "link": "https://www.dafont.com/clepto.font",
+      "license": "personlig & kommersiell bruk"
+    },
     {
       "name": "Cloister Black",
       "weight": "",
@@ -146,6 +176,13 @@
       "license": ""
     },
     { "name": "Didot", "weight": "", "author": "", "link": "", "license": "" },
+    {
+      "name": "Din-2014",
+      "weight": "",
+      "author": "Vasily Biryukov",
+      "link": "https://fonts.adobe.com/fonts/din-2014",
+      "license": "personlig & kommersiell bruk"
+    },
     {
       "name": "Droid-Sans",
       "weight": "",
