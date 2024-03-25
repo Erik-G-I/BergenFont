@@ -61,41 +61,15 @@ h3 {
   font-size: 3rem;
 }
 
-li {
-  padding: 2%;
-  font-size: 4rem;
-  overflow: auto;
-}
-
 p {
-  padding-top: 1rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
   font-size: 1.75rem;
 }
 
 .fonts {
   font-size: 4rem;
   overflow: auto;
-}
-
-@media only screen and (max-width: 500px) {
-  h1 {
-    font-size: 3.25rem;
-  }
-  h3 {
-    font-size: 1.5rem;
-  }
-  li {
-    font-size: 2rem;
-  }
-  p {
-    padding-top: 0.75rem;
-    padding-bottom: 0.25rem;
-    font-size: 1rem;
-  }
-  .fonts {
-    font-size: 2rem;
-  }
 }
 
 .homeList {
@@ -123,11 +97,56 @@ p {
 
 button.email {
   border-radius: 20px;
-  border-color: #0060e3;
+  border-width: 2px;
   background-color: #0060e3;
   padding-left: 10px;
   padding-right: 10px;
   color: #f2e5d1;
+}
+
+button.email:hover {
+  background-color: #f2e5d1;
+  color: #0060e3;
+  border-color: #0060e3;
+  border-width: 2px;
+  animation: "emailButton" 350ms;
+}
+
+@keyframes emailButton {
+  from {
+    background-color: #0060e3;
+    color: #f2e5d1;
+  }
+  to {
+    background-color: #f2e5d1;
+    border-color: #0060e3;
+  }
+}
+
+.fontMenu {
+  display: none;
+  padding: 0rem;
+}
+
+.fontMenu:hover {
+  display: inline;
+  color: #0060e3;
+}
+
+.fonts:focus + .fontMenu {
+  display: block;
+  color: #0060e3;
+}
+
+.author,
+.license,
+.fontLink {
+  font-size: 1.5rem;
+  padding: 0.25rem;
+}
+.fontLink {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .text {
@@ -161,6 +180,29 @@ button.email {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    padding-top: 0.75rem;
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+  .fonts {
+    font-size: 2rem;
+  }
+  .author,
+  .license,
+  .fontLink {
+    font-size: 0.75rem;
+    padding: 0.2rem;
   }
 }
 
