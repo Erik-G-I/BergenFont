@@ -1,24 +1,6 @@
 import Link from "next/link";
 import loadFontList from "./readJSON";
 
-// var titleFont = (function RandomTitleFont() {
-//   var titleFonts = [
-//     "Coolvetica",
-//     "Computer Modern",
-//     "Aber Mono",
-//     "Great Warrior",
-//     "Retro Boldy",
-//     "Melno",
-//     "Rafaella",
-//     "Planet Kosmos",
-//     "Ringold-Clarendon",
-//     "Expressway",
-//     "Tuppence",
-//   ];
-//   var randomFont = Math.floor(Math.random() * titleFonts.length);
-//   return titleFonts[randomFont];
-// })();
-
 export default function Home() {
   return (
     <>

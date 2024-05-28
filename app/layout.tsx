@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({
         <link rel="icon" href="/icon.png" sizes="any" />
       </head>
       <body className={inter.className}>
+        <SpeedInsights />
         <header>
           <div></div>
           <div>
