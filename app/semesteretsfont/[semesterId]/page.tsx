@@ -29,6 +29,9 @@ function FontName(params: string) {
   }
   if (id == "H23") {
     return "Pop Magic";
+  }
+  if (id == "V24") {
+    return "Rafaella";
   } else {
     return "Ugyldig semester :-(";
   }

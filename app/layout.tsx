@@ -53,6 +53,7 @@ export default function RootLayout({
               ></Image>
             </a>
           </div>
+          <br />
         </header>
         {children}
         <footer>

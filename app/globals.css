@@ -173,6 +173,10 @@ button.email:hover {
   font-family: pop magic;
 }
 
+.V24 {
+  font-family: Rafaella;
+}
+
 [contentEditable]:focus {
   outline: 0px solid transparent;
 }

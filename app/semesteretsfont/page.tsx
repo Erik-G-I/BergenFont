@@ -14,7 +14,9 @@ export default function SemesterList() {
         <Link href="/semesteretsfont/H23">
           <h3>H23</h3>
         </Link>
-        <h3 style={{ fontStyle: "italic" }}>V24 Kommer snart!</h3>
+        <Link href="/semesteretsfont/V24">
+          <h3>V24</h3>
+        </Link>
       </div>
     </>
   );

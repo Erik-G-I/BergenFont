@@ -10,7 +10,7 @@ export default function Home() {
         <h1
           className="title"
           style={{
-            fontFamily: "Coolvetica",
+            fontFamily: "Rafaella",
             // fontFamily: (function RandomTitleFont() {
             //   var titleFonts = [
             //     "Coolvetica",
@@ -30,7 +30,7 @@ export default function Home() {
             // })(),
           }}
         >
-          Bergen Font
+          Bergen font
         </h1>
         <h3>Nylige funn:</h3>
         <div className="homeList">
