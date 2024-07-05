@@ -13,7 +13,7 @@ export default function Om() {
           oss hele tiden. Derfor leter vi etter fonter som vi mener fortjener
           mer bruk, slik at vi kan dele de med dere flotte fontfanatikere.
         </p>
-        <p>
+        <p className="text">
           Bergen Fontforening tar ikke eierskap til noen av fontene vi viser
           frem.
           <br />
