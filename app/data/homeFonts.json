@@ -1,6 +1,13 @@
 {
   "fonts": [
     {
+      "name": "Arial Narrow",
+      "weight": "",
+      "author": "Robin Nicholas & Patricia Saunders",
+      "link": "https://www.youtube.com/watch?v=WJW-VvmRKsE&list=OLAK5uy_nSIlyvjzWS-Y6sZb24dhzcg0UlQazxn5k",
+      "license": "personlig & kommersiell bruk"
+    },
+    {
       "name": "Droid-Sans",
       "weight": "",
       "author": "Steve Matteson",

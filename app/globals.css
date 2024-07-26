@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #f2e5d1; /*#fed18c;*/
+  background-color: #8ace00; /* #f2e5d1; */
   color: #071e22;
   width: 100%;
 }
@@ -47,7 +47,8 @@ div.pageblock {
 }
 
 .title {
-  font-family: "Coolvetica";
+  /* font-family: "Coolvetica"; */
+  font-family: Arial Narrow;
   padding: 2%;
 }
 

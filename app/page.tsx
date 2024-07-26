@@ -7,31 +7,7 @@ export default function Home() {
   return (
     <>
       <div className="pageblock" spellCheck="false">
-        <h1
-          className="title"
-          style={{
-            fontFamily: "Rafaella",
-            // fontFamily: (function RandomTitleFont() {
-            //   var titleFonts = [
-            //     "Coolvetica",
-            //     "Computer Modern",
-            //     "Aber Mono",
-            //     "Great Warrior",
-            //     "Retro Boldy",
-            //     "Melno",
-            //     "Rafaella",
-            //     "Planet Kosmos",
-            //     "Ringold-Clarendon",
-            //     "Expressway",
-            //     "Tuppence",
-            //   ];
-            //   var randomFont = Math.floor(Math.random() * titleFonts.length);
-            //   return titleFonts[randomFont];
-            // })(),
-          }}
-        >
-          Bergen font
-        </h1>
+        <h1 className="title">bergen font</h1>
         <h3>Nylige funn:</h3>
         <div className="homeList">
           {loadFontList("/app/data/homeFonts.json")}
