@@ -219,6 +219,14 @@ button.email:hover {
    /__/    /______/ /__/  |____/     /__/   /_________/
 */
 
+/* Arial Narrow */
+@font-face {
+  font-family: "Arial Narrow";
+  src: url(/fonts/Arial_Narrow.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Excalibur Nouveau */
 @font-face {
   font-family: "Excalibur Nouveau";
