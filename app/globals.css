@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #8ace00; /* #f2e5d1; */
+  background-color: #f2e5d1;
   color: #071e22;
   width: 100%;
 }
@@ -11,7 +11,7 @@ body {
 header {
   padding: 2%;
   text-align: center;
-  color: #0060e3; /*coral;*/
+  color: #0060e3;
   font-family: "Computer Modern Italic";
   font-weight: bold;
   font-size: 20px;
@@ -47,13 +47,12 @@ div.pageblock {
 }
 
 .title {
-  /* font-family: "Coolvetica"; */
-  font-family: Arial Narrow;
+  font-family: "Coolvetica";
   padding: 2%;
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 9rem;
 }
 
 h3 {
