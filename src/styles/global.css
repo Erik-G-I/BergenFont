@@ -10,6 +10,12 @@
     font-weight: 400;
     font-style: normal;
 }
+@font-face {
+    font-family: "Terminal Grotesque";
+    src: url("/fonts/terminal-grotesque_open.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
 
 html,
 body {
@@ -20,22 +26,23 @@ body {
 }
 
 h1 {
-    font-family: "tt-globs", serif;
-    font-weight: 400;
+    font-family: "Terminal Grotesque";
+    font-weight: normal;
     font-style: normal;
 }
 
 #link {
     font-family: "CMU Serif";
     font-style: italic;
-    color: blue;
+    color: #0066cc;
     font-size: 1.5rem;
 }
 
 #title{
-    color: black;
-    font-size: 3rem;
+    color: #222426;
+    font-size: 5rem;
     text-decoration: none;
+    letter-spacing: 0.5rem;
 
     padding-top: 1rem;
     padding-bottom: 1rem;
