@@ -6,6 +6,10 @@ export default function Home() {
     <>
       <div className="pageblock" spellCheck="false">
         <h1 className="title">Bergen Font</h1>
+        <a href="/fonts/cmunti.ttf" download>
+        Download font
+        </a>
+
         <h3>Nylige funn:</h3>
         <div className="homeList">
           {loadFontList("/app/data/homeFonts.json")}
