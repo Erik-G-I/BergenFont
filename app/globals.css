@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #f2e5d1;
+  background-color: #f2f2f2;/*#f2e5d1; Old bg-color*/
   color: #071e22;
   width: 100%;
 }
@@ -49,6 +49,22 @@ div.pageblock {
 .title {
   font-family: "Coolvetica";
   padding: 2%;
+}
+
+.poster-grid {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .poster-grid{
+    column-count: 2 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .masonry-grid {
+    column-count: 1 !important;
+  }
 }
 
 h1 {
@@ -101,11 +117,11 @@ button.email {
   background-color: #0060e3;
   padding-left: 10px;
   padding-right: 10px;
-  color: #f2e5d1;
+  color: #f2f2f2;
 }
 
 button.email:hover {
-  background-color: #f2e5d1;
+  background-color: #f2f2f2;
   color: #0060e3;
   border-color: #0060e3;
   border-width: 2px;
@@ -115,10 +131,10 @@ button.email:hover {
 @keyframes emailButton {
   from {
     background-color: #0060e3;
-    color: #f2e5d1;
+    color: #f2f2f2;
   }
   to {
-    background-color: #f2e5d1;
+    background-color: #f2f2f2;
     border-color: #0060e3;
   }
 }
