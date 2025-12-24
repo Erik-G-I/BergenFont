@@ -4,16 +4,25 @@ import PosterGrid from "./components/postergrid";
 
 export default function Home() {
   const images:string[] = [
-    "/images/testC.png",
-    "/images/testB.png",
-    "/images/testA.png",
+    "/images/bergenfontlighter.gif",
+    "/images/bergenfontlighter.gif",
+    "/images/bergenfontlighter.gif",
+    "/images/bergenfontlighter.gif",
+    "/images/bergenfontlighter.gif",
+    "/images/bergenfontlighter.gif",
+    "/images/bergenfontlighter.gif",
+    "/images/bergenfontlighter.gif",
+    "/images/bergenfontlighter.gif",
   ]
   const fonts:string[] = [
-    "cmunrm.ttf",
-    "cmunrm.ttf",
-    "cmunrm.ttf",
   ]
   const socials:string[] =[
+    "instagram.com/bergenfont",
+    "instagram.com/bergenfont",
+    "instagram.com/bergenfont",
+    "instagram.com/bergenfont",
+    "instagram.com/bergenfont",
+    "instagram.com/bergenfont",
     "instagram.com/bergenfont",
     "instagram.com/bergenfont",
     "instagram.com/bergenfont",
@@ -22,7 +31,7 @@ export default function Home() {
     <>
       <div className="pageblock" spellCheck="false">
         <h1 className="title">Bergen Font</h1>
-        <PosterGrid images={images} fonts={fonts} socials={socials} columns={3}/>
+        <PosterGrid images={images} fonts={fonts} socials={socials} columns={Math.min(images.length, 3)}/>
         {/* <h3>Nylige funn:</h3>
         <div className="homeList">
           {loadFontList("/app/data/homeFonts.json")}

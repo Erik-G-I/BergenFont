@@ -40,6 +40,7 @@ div.pageblock {
   display: inline;
   padding: 1%;
   cursor: pointer;
+  color:#0060e3;
 }
 
 .link:hover {
@@ -55,17 +56,17 @@ div.pageblock {
   width: 100%;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .poster-grid{
     column-count: 2 !important;
   }
-}
+} */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .masonry-grid {
     column-count: 1 !important;
   }
-}
+} */
 
 h1 {
   font-size: 9rem;
