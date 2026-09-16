@@ -12,13 +12,14 @@ export default function Om() {
           oss. Derfor leter vi etter fonter som vi mener fortjener
           oppmerksomhet, og deler de med dere flotte fontfanatikere.
         </p>
-        <p className="text">
+        <<p className="text">
           Bergen Fontforening tar ikke eierskap til noen av fontene vi viser
           frem.
           <br />
           Alle fontene er plukket ut fordi vi mener de fortjener å bli sett av
           flere. Du kan derfor finne informasjon om skaperen, lisenser og link
-          til nedlasting av fonten i </p><Link href="/arkivet" className="link">arkivet.</Link>
+          til nedlasting av fonten i arkivet.
+        </p>
       </div>
     </>
   );
