@@ -4,8 +4,7 @@ export default function Om() {
       <div className="pageblock">
         <h1 className="title">Om oss</h1>
         <p className="text">
-          Bergen Fontforening ble grunnlagt en vakker dag i desember i 2022, i
-          stuen i Welhavens Gate 82, 1. etasje. Er du glad i skrifttyper og
+          Bergen Fontforening ble grunnlagt på Møhlenpris en vakker desemberkveld i 2022. Er du glad i skrifttyper og
           estetikk, det er vi også!
         </p>
         <p className="text">
