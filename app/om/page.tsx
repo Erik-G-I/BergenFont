@@ -18,8 +18,7 @@ export default function Om() {
           <br />
           Alle fontene er plukket ut fordi vi mener de fortjener å bli sett av
           flere. Du kan derfor finne informasjon om skaperen, lisenser og link
-          til nedlasting av fonten i <Link href="/arkivet" className="link">arkivet</Link>.
-        </p>
+          til nedlasting av fonten i </p><Link href="/arkivet" className="link">arkivet.</Link>
       </div>
     </>
   );
