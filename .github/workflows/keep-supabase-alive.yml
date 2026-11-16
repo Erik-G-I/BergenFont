@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Query Supabase REST API
         run: |
-          curl -s -X GET "${{ secrets.SUPABASE_URL }}/rest/v1/markers?select=id&limit=1" \
+          curl -s -X GET "${{ secrets.SUPABASE_URL }}/rest/v1/FontLocations?select=id&limit=1" \
             -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
             -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}"
