@@ -75,7 +75,7 @@ export default function BergenMap({ locations }: MapProps) {
                 activePopup?.remove();
 
                 const content = document.createElement('div');
-                content.className = 'relative overflow-hidden rounded-xl bg-white shadow-xl';
+                content.className = 'relative overflow-hidden rounded-xl bg-white shadow-xl h-50 w-30 sm:h-60 sm:w-full';
 
                 const closeButton = document.createElement('button');
                 closeButton.type = 'button';
@@ -86,7 +86,7 @@ export default function BergenMap({ locations }: MapProps) {
                 content.appendChild(closeButton);
 
                 const imageHeader = document.createElement('div');
-                imageHeader.className = 'relative h-36 w-full';
+                imageHeader.className = 'relative h-25 w-30 sm:h-40 sm:w-full';
                 if (location.image_url) {
                     const image = document.createElement('img');
                     image.src = location.image_url;
