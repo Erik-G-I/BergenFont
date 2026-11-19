@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ededed;
+  --foreground: #333333;
+}
+
+@layer base {
+  h1 {
+    text-align: center;
+  }
 }
 
 @theme inline {
@@ -14,7 +20,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #333333;
     --foreground: #ededed;
   }
 }
@@ -22,5 +28,34 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Computer Modern";
+}
+
+
+.mapboxgl-popup-content {
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.mapboxgl-popup-tip {
+  display: none !important;
+}
+
+
+/* 
+       ______  _______  ____    ___  __________  _________
+      /  ___/ / ___  / /    |  /  / /___   ___/ /  ______/
+     /  /__  / /  / / /  /| | /  /     /  /    \_  \__
+    /  ___/ / /__/ / /  / | |/  /     /  /   ____\    \
+   /__/    /______/ /__/  |____/     /__/   /_________/
+*/
+
+/* Computer Modern */
+@font-face {
+  font-family: "Computer Modern";
+  src: url(/fonts/cmunrm.ttf);
+  font-weight: normal;
+  font-style: normal;
 }
